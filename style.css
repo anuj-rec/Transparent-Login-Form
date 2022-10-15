@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Mono:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 5px solid turquoise; */
+    color:white;
+    position: absolute;
+    top:2%;
+    left: 1%;
+}
+.container h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    border-bottom: 4px solid aqua;
+    margin-bottom: 16px;
+    padding: 15px 0;
+    /* display: inline-block; */
+}
+.box{
+    width: 100%;
+    /* border: 2px solid darkblue; */
+    margin: 20px 0px;
+    border-bottom: 3px solid ivory;
+}
+.box input{
+    width: 75%;
+    border: none;
+    outline:none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: none;
+}
+.box i{
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid rgb(0, 247, 255);
+    border-radius: 12px;
+    font-size: 15px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: tomato;
+    background: white;
+    opacity: 0.6;
+}
